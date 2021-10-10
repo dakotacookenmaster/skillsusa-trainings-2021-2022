@@ -1,0 +1,39 @@
+html body {
+    /* General descendant selector */
+    /* any body tag found within any html tag */
+    background-color: maroon;
+}
+
+div > p {
+    /* Direct descendant selector */
+    /* Any paragraph that is found as a 
+       direct child of a div */
+    font-weight: bold;
+}
+
+div + div {
+    /* Adjacency selector */
+    /* Any div which immediately follows 
+       as the sibiling of another div */
+    color: white;
+}
+
+input[type="email"] {
+    /* Attribute selector */
+    /* Any input with the type of "email" */
+    background: yellow;
+}
+
+#elementTable, #elementTable td, #elementTable th {
+    /* */
+    border: 1px dashed black;
+}
+
+.bigLetters {
+    font-size: 25px;
+}
+
+th.bigLetters {
+    text-decoration: underline;
+}
+
